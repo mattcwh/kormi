@@ -15,7 +15,7 @@ source "$(conda info --base)/etc/profile.d/conda.sh"
 conda activate "$ENV_NAME"
 
 echo "Installing packages..."
-pip install pandas numpy scipy vedo ipykernel
+pip install pandas numpy scipy vedo k3d plotly nbformat ipykernel
 
 python -m ipykernel install --user --name $ENV_NAME --display-name "Python 3.13.1 (kormi)"
 
