@@ -1,3 +1,10 @@
+data/SAROS-Collection-NIfTI-files-v2_03-70-2024
+data/Segmentation-Info_09-29-2023.csv
+data/angelStatue_lp.jpg
+data/angelStatue_lp.obj
+
+*.zip
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
